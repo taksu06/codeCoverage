@@ -29,7 +29,14 @@ public class TestUtil {
     c.compute(0,1,2);
   }
 
+  @Test
+    public void testComputeIsDivisibleBySum() {
+    assertTrue(c.compute(1, 2, 3));
+  }
 
 
 
 }
+
+
+
