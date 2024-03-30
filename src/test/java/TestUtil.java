@@ -19,6 +19,12 @@ public class TestUtil {
     assertFalse(c.compute(0));
     }
 
+  @Test
+  public void testComputeLengthEven() {
+    assertFalse(c.compute(0,1));
+  }
+
+
 
 
 }
