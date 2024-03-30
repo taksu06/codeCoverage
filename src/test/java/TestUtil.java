@@ -15,13 +15,18 @@ public class TestUtil {
   public void example() { assertTrue(true); }
 
     @Test
-  public void testComputeLenghtOne() {
+  public void testComputeIsLenghtOne() {
     assertFalse(c.compute(0));
     }
 
   @Test
-  public void testComputeLengthEven() {
+  public void testComputeIsLengthEven() {
     assertFalse(c.compute(0,1));
+  }
+
+  @Test(expected = RuntimeException.class)
+  public void testIsZero() {
+    c.compute(0,1,2);
   }
 
 
