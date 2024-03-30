@@ -1,3 +1,4 @@
+I changed pom.xml file
 
 The application has 100% coverage (target/site/jacoco/index.html)
 ![myApp](https://github.com/taksu06/codeCoverage/assets/139376701/72a914c6-cabb-41e4-806b-50ddaa0cfea8)
