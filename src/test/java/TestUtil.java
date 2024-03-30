@@ -35,6 +35,11 @@ public class TestUtil {
   }
 
 
+  @Test
+  public void testComputeIsNotDivisibleBySum() {
+    assertFalse(c.compute(2, 3, 6));
+  }
+
 
 }
 
